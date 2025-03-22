@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/all.css">
+</head>
+<body class="p-[20px] max-w-[1350px] m-auto">
+    
+    <header class="bg-[#FCFCFC] flex flex-col gap-5">
+        <nav class="lg:flex hidden items-center justify-between">
+            <img src="./img/logo.svg" alt="">
+            <div>
+                <h3 class="text-[#00578A] text-lg">8 (495) 926-06-03</h3>
+                <div class="flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <p>Whatsapp</p>
+                </div>
+            </div>
+            <div>
+                <p>info@gormedcentre.ru</p>
+                <p class="underline">Заказать звонок</p>
+            </div>
+            <div>
+                <p>г. Мытищи,</p>
+                <p>ул.Рождественская, д.7</p>
+            </div>
+            <div>
+                <p>Ежедневно</p>
+                <p>с 9.00 до 21.00</p>
+            </div>
+            <div class="flex items-center gap-3">
+                <i class="fa-solid fa-magnifying-glass
+                text-white bg-[#00C6BF] py-3 px-4 rounded-md"></i>
+                <button class="bg-[#E3EFF5] text-[#00578A] py-2 px-4 rounded-md">Личный кабинет</button>
+            </div>
+
+
+        </nav>
+
+        <article class="flex items-center lg:hidden justify-between">
+
+            <img class="w-[40%]" src="./img/logo.svg" alt="">
+            <i class="fa-solid fa-phone-flip lg:hidden text-3xl"></i>
+            <div class="flex lg:hidden items-center gap-2">
+                <p>Меню</p>
+                <i class="fa-solid fa-bars text-4xl"></i>
+            </div>
+        </article>
+
+        <nav class="lg:flex hidden items-center justify-between bg-[#FFFFFF] shadow-lg rounded-md p-2">
+            <aside class="flex items-center gap-9 font-bold">
+
+                <div class="flex items-center gap-3">
+                    <p>Направления</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <p>Услуги</p>
+                <p>Врачи</p>
+                <p>Отзывы</p>
+                <p>Акции</p>
+                <div class="flex items-center gap-3">
+                    <p>О центре</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <p>Детство</p>
+                <p>Контакты</p>
+            </aside>
+                <div class="flex items-center gap-3">
+                    
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-glasses"></i>
+                    <p>Версия для слабовидящих</p>
+                </div>
+                <button class="bg-[#00578A] text-white py-2 px-4 rounded-md">Запись на приём</button>
+            </div>
+        </nav>
+        <section class="flex flex-col lg:flex-row lg:items-center bg-[#F0F6F9] lg:pl-5 justify-between p-5 lg:p-0 gap-5">
+            <aside class="flex flex-col gap-5">
+
+                <div class="flex items-center gap-3">
+                    <p class="underline">Главная</p>/
+                    <p>Отзывы</p>
+                </div>
+                <h1 class="text-4xl font-bold">Отзывы</h1>
+                <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-3">
+
+                    <button class="bg-[#00C6BF] py-[13px] px-[50px] rounded-md text-white">Оставить отзыв</button>
+                    <div class="flex items-center justify-between bg-[#E3EFF5] py-[13px] px-[50px] rounded-md">
+                        <button>Специализация врача</button>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+            </aside>
+            <img src="./img/image.svg" alt="">
+                
+        </section>
+    </header>
+
+</body>
+</html>
+
+<!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
